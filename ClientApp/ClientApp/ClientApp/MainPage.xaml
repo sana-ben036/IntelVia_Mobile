@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClientApp.MainPage">
+
+    <ScrollView>
+        <StackLayout Padding="5">
+            <Label Text="List Products" FontSize="Title" TextColor="#2196F3" />
+
+
+            <Frame  Padding="5" CornerRadius="10" Margin="5" BorderColor="#2196F3">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                    <Frame WidthRequest="100" >
+                        <Image Aspect="Fill"  Source="https://www.intel.fr/content/dam/www/public/us/en/images/logos/logo-rwd.png.rendition.intel.web.864.486.png" />
+                    </Frame>
+                    <Frame WidthRequest="200" >
+                        <StackLayout>
+                            <Label Text="Product Name" FontSize="Title" TextColor="Gray"/>
+                            <Label Text="Price " FontSize="Subtitle" TextColor="Green"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </Frame>
+
+
+            <Frame  Padding="5" CornerRadius="10" Margin="5" BorderColor="#2196F3">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                    <Frame WidthRequest="100" >
+                        <Image Aspect="Fill"  Source="https://www.intel.fr/content/dam/www/public/us/en/images/logos/logo-rwd.png.rendition.intel.web.864.486.png" />
+                    </Frame>
+                    <Frame WidthRequest="200" >
+                        <StackLayout>
+                            <Label Text="Product Name" FontSize="Title" TextColor="Gray"/>
+                            <Label Text="Price " FontSize="Subtitle" TextColor="Green"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </Frame>
+
+
+
+
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
