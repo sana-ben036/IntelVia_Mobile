@@ -7,39 +7,28 @@
         <StackLayout Padding="5">
             <Label Text="List Products" FontSize="Title" TextColor="#2196F3" />
 
-
-            <Frame  Padding="5" CornerRadius="10" Margin="5" BorderColor="#2196F3">
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
-                    <Frame WidthRequest="100" >
-                        <Image Aspect="Fill"  Source="https://www.intel.fr/content/dam/www/public/us/en/images/logos/logo-rwd.png.rendition.intel.web.864.486.png" />
-                    </Frame>
-                    <Frame WidthRequest="200" >
-                        <StackLayout>
-                            <Label Text="Product Name" FontSize="Title" TextColor="Gray"/>
-                            <Label Text="Price " FontSize="Subtitle" TextColor="Green"/>
-                        </StackLayout>
-                    </Frame>
-                </StackLayout>
-            </Frame>
-
-
-            <Frame  Padding="5" CornerRadius="10" Margin="5" BorderColor="#2196F3">
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
-                    <Frame WidthRequest="100" >
-                        <Image Aspect="Fill"  Source="https://www.intel.fr/content/dam/www/public/us/en/images/logos/logo-rwd.png.rendition.intel.web.864.486.png" />
-                    </Frame>
-                    <Frame WidthRequest="200" >
-                        <StackLayout>
-                            <Label Text="Product Name" FontSize="Title" TextColor="Gray"/>
-                            <Label Text="Price " FontSize="Subtitle" TextColor="Green"/>
-                        </StackLayout>
-                    </Frame>
-                </StackLayout>
-            </Frame>
-
-
-
-
+            <ListView x:Name="ListData"  HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame  Padding="5" CornerRadius="10" Margin="5" BorderColor="#2196F3">
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                                    <Frame WidthRequest="100" >
+                                        <Image Aspect="Fill"  Source="{Binding Image}" />
+                                    </Frame>
+                                    <Frame WidthRequest="200" >
+                                        <StackLayout>
+                                            <Label Text="{Binding Name}" FontSize="Title" TextColor="Black"/>
+                                            <Label Text="{Binding Price} " FontSize="Subtitle" TextColor="Green"/>
+                                            <Label Text="{Binding Quantity} " FontSize="Subtitle" TextColor="Gray"/>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
 
         </StackLayout>
     </ScrollView>
