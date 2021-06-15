@@ -4,7 +4,6 @@ C:\Users\youcode\source\repos\sana-ben036\IntelVia_Mobile\ClientApp\ClientApp\Cl
 C:\Users\youcode\source\repos\sana-ben036\IntelVia_Mobile\ClientApp\ClientApp\ClientApp\bin\Debug\netstandard2.0\ClientApp.pdb
 C:\Users\youcode\source\repos\sana-ben036\IntelVia_Mobile\ClientApp\ClientApp\ClientApp\obj\Debug\netstandard2.0\ClientApp.csprojAssemblyReference.cache
 C:\Users\youcode\source\repos\sana-ben036\IntelVia_Mobile\ClientApp\ClientApp\ClientApp\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\youcode\source\repos\sana-ben036\IntelVia_Mobile\ClientApp\ClientApp\ClientApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\youcode\source\repos\sana-ben036\IntelVia_Mobile\ClientApp\ClientApp\ClientApp\obj\Debug\netstandard2.0\ClientApp.AssemblyInfoInputs.cache
 C:\Users\youcode\source\repos\sana-ben036\IntelVia_Mobile\ClientApp\ClientApp\ClientApp\obj\Debug\netstandard2.0\ClientApp.AssemblyInfo.cs
 C:\Users\youcode\source\repos\sana-ben036\IntelVia_Mobile\ClientApp\ClientApp\ClientApp\obj\Debug\netstandard2.0\ClientApp.csproj.CoreCompileInputs.cache
@@ -12,3 +11,4 @@ C:\Users\youcode\source\repos\sana-ben036\IntelVia_Mobile\ClientApp\ClientApp\Cl
 C:\Users\youcode\source\repos\sana-ben036\IntelVia_Mobile\ClientApp\ClientApp\ClientApp\obj\Debug\netstandard2.0\ClientApp.dll
 C:\Users\youcode\source\repos\sana-ben036\IntelVia_Mobile\ClientApp\ClientApp\ClientApp\obj\Debug\netstandard2.0\ref\ClientApp.dll
 C:\Users\youcode\source\repos\sana-ben036\IntelVia_Mobile\ClientApp\ClientApp\ClientApp\obj\Debug\netstandard2.0\ClientApp.pdb
+C:\Users\youcode\source\repos\sana-ben036\IntelVia_Mobile\ClientApp\ClientApp\ClientApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
